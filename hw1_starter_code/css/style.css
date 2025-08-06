@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'stylishFont1';
+    src: url(../fonts/font1);
+}
+
+body {
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+header {
+    background-color: yellow;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+main {
+    font-family: 'stylishFont1';
+    font-size: medium;
+}
+
+footer {
+    background-color: gold;
+}
+
+li {
+    display: inline-block;
+    width: auto;
+    font-family: 'stylishFont1';
+}
+
+h1 {
+    text-align: center;
+    font-family: 'stylishFont1';
+    color: black;
+}
+
+p {
+    text-align: center;
+    line-height: normal;
+    font-family: sans-serif;
+}
