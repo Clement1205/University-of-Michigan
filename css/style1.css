@@ -1,0 +1,23 @@
+main {
+    min-height: 100px;
+}
+
+nav a {  /* all the links inside the nav */
+    text-decoration: none; /* remove the underline link thingy underneath the words */
+}
+
+li {
+    background-color: yellow;
+}
+
+ul {
+    list-style-type: none; /* remove the dot in front of each item in the list */
+    display: flex; /* make everything concatenate each other */
+    flex-direction: row; /* if column then one element underneath the other */
+    justify-content: space-between; /* to test these, go to inspect element in a website and tweak it */
+}
+
+.current_page { /* this is a class, in this case, when user clicks on XXX page, the XXX option does this */
+    text-transform: uppercase;
+    background-color: lightgray;
+}
